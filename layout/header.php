@@ -13,6 +13,30 @@
             justify-content: center;
             align-items: center;
         }
+
+        .footer{
+            font-size: 15px;
+            padding: 20px 0;
+            width: 100%;
+            background-color: #f8f9fa;
+            color:blank;
+            text-align: center;
+        }
+        .footer a{
+            text-transform: uppercase;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+        .cta{
+            font-size: 30px;
+            text-transform: uppercase;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+
+        .navbar{
+            padding: 15px 200px;
+        }
     </style>
 
 </head>
@@ -21,32 +45,23 @@
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <a class="navbar-brand" href="#">auth app</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-                </li>
                 <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Dropdown
+                    Join us
                 </a>
                 <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <li><a class="dropdown-item" href="/php_crud_app/auth/login.php">login</a></li>
+                    <li><a class="dropdown-item" href="/php_crud_app/auth/register.php">register</a></li>
+                    <li><a class="dropdown-item" href="/php_crud_app/auth/logout.php">logout</a></li>
                 </ul>
                 </li>
-                <li class="nav-item">
-                <a class="nav-link disabled">Disabled</a>
-                </li>
+
             </ul>
             <form class="d-flex" role="search">
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
